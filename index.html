@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html data-ng-app="APP">
+
+<head>
+    <meta charset="utf-8">
+    <title>Студенська ліга алтимату</title>
+    <!--<base href="/">-->
+    <base href=".">
+    <link href="css/leaflet.css" rel="stylesheet">
+    <link href="css/angular-material.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700' rel='stylesheet' type='text/css'>
+    <link href="css/main.css" rel="stylesheet">
+    <script src="js/jquery-1.7.2.min.js"></script>
+</head>
+
+<body>
+    <!-- header begin -->
+    <div class="header-wrap" data-header-animation>
+        <header ng-controller="HeaderCtrl">
+            <div class="logo" data-ng-click="scrollTo('head')">SLU</div>
+            <nav>
+                <md-button data-ng-click="scrollTo('about')">About</md-button>
+                <md-button data-ng-click="scrollTo('universities')">Universities</md-button>
+                <md-button data-ng-click="scrollTo('news')">News</md-button>
+                <md-button data-ng-click="scrollTo('partners')">Partners</md-button>
+            </nav>
+        </header>
+        <div class="header-bg"></div>
+    </div>
+    <!-- header end -->
+
+    <!-- head begin -->
+    <section id="head">
+        <div class="content-wrap content">
+            <div class="logo">
+                International <span>S</span>tudents <span>L</span>eague <span>U</span>ltimate</div>
+            <div class="description">
+                SLU or Students League Ultimate it`s international league ultimate which
+                <br> included more then 20 different university teams in Ukraine, Georgia and Russia.
+            </div>
+        </div>
+    </section>
+    <!-- head end -->
+
+    <section id="about" class="content clearfix">
+        <h3>What <span>is</span> it ?</h3>
+        <div class="item">
+            <div class="img-wrap">
+                <img src="img/ultimate.png" alt="">
+            </div>
+            <h4>What is Ultimate frisbee?</h4>
+            <div class="text">
+                Ultimate is an exciting, non-contact team sport, played by thousands the world over. It mixes the best features of sports such as Soccer, Basketball, American Football and Netball into an elegantly simple yet fascinating and demanding game.
+            </div>
+        </div>
+        <div class="item">
+            <div class="img-wrap">
+                <img src="img/team.png" alt="">
+            </div>
+            <h4>20 Ultimate Teams</h4>
+            <div class="text">
+                We have already 20 Ultimate teams in different regions of Ukraine, Poland and Gruzia!
+            </div>
+        </div>
+        <div class="item">
+            <div class="img-wrap">
+                <img src="img/slu.png" alt="">
+            </div>
+            <h4>International Students League Ultimate</h4>
+            <div class="text">
+                We combined all universitis ultimate frisbee teams in one asdasdasdsdasd asdasdasdasdasdasd
+            </div>
+        </div>
+    </section>
+
+    <section id="universities" data-ng-controller="UniversitiesCtrl">
+        <h3>How <span>many</span> of us?</h3>
+        <leaflet id="map" center="center" layers="layers" maxbounds="maxbounds" defaults="defaults" markers="markers"></leaflet>
+        <div class="slider-wrap">
+            <div class="slider" data-teams-slider>
+                <div class="item" data-ng-repeat="universities in universities">
+                    <img src="img/universities/{{universities.name}}" alt="">
+                    <md-tooltip>{{universities.title}}</md-tooltip>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="news" class="content">
+        <h3>Some <span>news</span></h3>
+        <div class="items-list clearfix">
+            <a href="#">
+                <div class="item">
+                    <img src="img/news/one.jpg" alt="">
+                    <h4>The first sparring The first sparring The first sparringThe first sparring</h4>
+                </div>
+            </a>
+            <a href="#">
+                <div class="item">
+                    <img src="img/news/one.jpg" alt="">
+                    <h4>The first sparring The first sparring The first sparringThe first sparring</h4>
+                </div>
+            </a>
+            <a href="#">
+                <div class="item">
+                    <img src="img/news/one.jpg" alt="">
+                    <h4>The first sparring The first sparring The first sparringThe first sparring</h4>
+                </div>
+            </a>
+            <a href="#">
+                <div class="item">
+                    <img src="img/news/one.jpg" alt="">
+                    <h4>The first sparring The first sparring The first sparringThe first sparring</h4>
+                </div>
+            </a>
+        </div>
+        <a class="more" href="#">All news</a>
+    </section>
+
+    <section id="partners" class="content" style="height: 400px;">
+        <h3>Thanks to our <span>partners</span></h3>
+    </section>
+
+    <footer>
+        <div class="create-by">
+            create by <a target="_blank" href="http://spodenyuk.16mb.com/">Spodenyuk</a>
+        </div>
+    </footer>
+
+    <!-- Leaflet -->
+    <script src="/js/leaflet.js"></script>
+
+    <!-- Angular Material Dependencies -->
+    <script src="/js/angular.min.js"></script>
+    <script src="/js/angular-leaflet-directive.min.js"></script>
+    <script src="/js/angular-animate.min.js"></script>
+    <script src="/js/angular-aria.min.js"></script>
+
+
+    <!-- Angular Material Javascript now available via Google CDN; version 0.10 used here -->
+    <script src="/js/angular-material.min.js"></script>
+
+    <!-- App Core -->
+    <script src="/js/app.js"></script>
+
+
+
+</body>
+
+</html>

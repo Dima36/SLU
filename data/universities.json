@@ -1,0 +1,83 @@
+{
+    "markers": {
+        "m1": {
+            "lat": 55.754816,
+            "lng": 37.621509,
+            "message": "<h5 class='marker-title'>Moscow</h5><ul class='marker-list'><li>Higher School of Economics</li><li>Bauman Moscow State Technical University</li><li>Moscow Pedagogical State University</li><li>Russia University of Economics</li><li>Moscow State University</li><li>Russian State University for the Humanities</li></ul><div class='marker-footer'>Responsible: <a href=''>Boris Khilko</a></div>"
+        },
+        "m2": {
+            "lat": 58.26329,
+            "lng": 54.49219,
+            "message": "С„С‹РІР°С„С‹РІР°С„С‹РІР°С„С‹РІР°"
+        }
+    },
+    "universities": [
+        {
+            "title": "name 1",
+            "name": "dkue.jpg"
+        }, {
+            "title": "name 2",
+            "name": "dubna.jpg"
+        }, {
+            "title": "name 3",
+            "name": "economical-school.jpg"
+        }, {
+            "title": "name 4",
+            "name": "ftsh.jpg"
+        }, {
+            "title": "name 5",
+            "name": "gtu.jpg"
+        }, {
+            "title": "name 6",
+            "name": "med.jpg"
+        }, {
+            "title": "name 7",
+            "name": "mgpu.jpg"
+        }, {
+            "title": "name 8",
+            "name": "mgu.jpg"
+        }, {
+            "title": "name 9",
+            "name": "nafta.jpg"
+        }, {
+            "title": "name 10",
+            "name": "ngtu.jpg"
+        }, {
+            "title": "name 11",
+            "name": "pleshka.jpg"
+        }, {
+            "title": "name 12",
+            "name": "pmgmu.png"
+        }, {
+            "title": "name 13",
+            "name": "pnu.jpg"
+        }, {
+            "title": "name 14",
+            "name": "ranhigs.jpg"
+        }, {
+            "title": "name 15",
+            "name": "rggu.jpg"
+        }, {
+            "title": "name 16",
+            "name": "ruls.jpg"
+        }, {
+            "title": "name 17",
+            "name": "samgtu.jpg"
+        }, {
+            "title": "name 18",
+            "name": "sosh.jpg"
+        }, {
+            "title": "name 19",
+            "name": "spbgik.jpg"
+        }, {
+            "title": "name 20",
+            "name": "spbgu.jpg"
+        }, {
+            "title": "name 21",
+            "name": "pedagogical.jpg"
+        }, {
+            "title": "name 22",
+            "name": "mgtu.jpg"
+        }
+    ]
+}
