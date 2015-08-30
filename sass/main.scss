@@ -332,10 +332,22 @@ footer {
             &.impuls {
                 background: url(../img/impuls.png) center top no-repeat;
             }
-            &.mad-caps {
-
-            }
+            &.mad-caps {}
         }
+    }
+}
+
+.scroll-wrap {
+    position: fixed;
+    display: none;
+    bottom: 50px;
+    right: 50px;
+    .scroll-top {
+        width: 70px;
+        height: 38px;
+        cursor: pointer;
+        background: url(../img/arrow.png) no-repeat;
+        background-size: 100% 100%;
     }
 }
 

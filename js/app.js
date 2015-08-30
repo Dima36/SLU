@@ -89,12 +89,39 @@ app.directive('headerAnimation', function ($window) {
 
 
             function contentScroll() {
-                    var scroll = $win.scrollTop();
+                var scroll = $win.scrollTop();
 
-                if(415 < scroll) {
+                if (415 < scroll) {
                     element.addClass("fixed");
                 } else {
                     element.removeClass("fixed");
+                }
+            }
+
+            $($win).scroll(function () {
+                contentScroll();
+            });
+
+            contentScroll();
+        }
+    };
+});
+
+app.directive('scrollTop', function ($window) {
+    var $win = angular.element($window);
+
+    return {
+        restrict: 'A',
+        link: function (scope, element, attrs) {
+
+
+            function contentScroll() {
+                var scroll = $win.scrollTop();
+
+                if (scroll > 350) {
+                    element.fadeIn(300);
+                } else {
+                    element.fadeOut(300);
                 }
             }
 
