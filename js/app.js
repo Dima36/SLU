@@ -3,7 +3,7 @@ var app = angular.module('APP', [
     "leaflet-directive"
 ]);
 
-app.controller('HeaderCtrl', ['$scope', function ($scope) {
+app.controller('NavCtrl', ['$scope', function ($scope) {
     $scope.scrollTo = function (scrolledId) {
         var elem = $('#' + scrolledId),
             top = elem.offset().top;
@@ -44,12 +44,12 @@ app.controller('UniversitiesCtrl', ['$scope', '$http', 'leafletData', function (
         },
         maxbounds: {
             southWest: {
-                lat: 79.18783,
-                lng: 160.83984
+                lat: 84.568808,
+                lng: -170.399813
             },
             northEast: {
-                lat: 16.63619,
-                lng: -26.2793
+                lat: -63.734701,
+                lng: 179.611585
             }
         },
         layers: {
@@ -87,12 +87,14 @@ app.directive('headerAnimation', function ($window) {
         restrict: 'A',
         link: function (scope, element, attrs) {
 
+
             function contentScroll() {
-                var scroll = $win.scrollTop();
-                if (scroll > 30) {
-                    element.addClass("scrolled");
+                    var scroll = $win.scrollTop();
+
+                if(415 < scroll) {
+                    element.addClass("fixed");
                 } else {
-                    element.removeClass("scrolled");
+                    element.removeClass("fixed");
                 }
             }
 

@@ -6,11 +6,47 @@
             "message": "<h5 class='marker-title'>Moscow</h5><ul class='marker-list'><li>Higher School of Economics</li><li>Bauman Moscow State Technical University</li><li>Moscow Pedagogical State University</li><li>Russia University of Economics</li><li>Moscow State University</li><li>Russian State University for the Humanities</li></ul><div class='marker-footer'>Responsible: <a href=''>Boris Khilko</a></div>"
         },
         "m2": {
-            "lat": 58.26329,
-            "lng": 54.49219,
-            "message": "С„С‹РІР°С„С‹РІР°С„С‹РІР°С„С‹РІР°"
+            "lat": 59.936370,
+            "lng": 30.318191,
+            "message": "<h5 class='marker-title'>Saint-Petersburg</h5><ul class='marker-list'><li>Saint Petersburg State University</li><li>Saint-Petersburg State Pediatric Medical University</li><li>St. Petersburg State University of Culture</li><li>St.Petersburg Polytechnic University</li><li>Novgorod State University</li></ul><div class='marker-footer'>Responsible: <a href=''>--</a></div>"
+        },
+        "m3": {
+            "lat": 56.301313,
+            "lng": 43.937045,
+            "message": "<h5 class='marker-title'>Nizhniy Novgorod</h5><ul class='marker-list'><li>Lobachevsky State University of Nizhni Novgorod</li><li>Nizhny Novgorod State Technical University</li></ul><div class='marker-footer'>Responsible: <a href=''>Alexei Vasiliev</a></div>"
+        },
+        "m4": {
+            "lat": 56.146938,
+            "lng": 40.408331,
+            "message": "<h5 class='marker-title'>Vladimir</h5><ul class='marker-list'><li>Vladimir State University</li></ul><div class='marker-footer'>Responsible: <a href=''>Dmitriy Kirichkov</a></div>"
+        },
+        "m5": {
+            "lat": 59.223095,
+            "lng": 39.883861,
+            "message": "<h5 class='marker-title'>Vologda</h5><ul class='marker-list'><li>Vologda State University</li></ul><div class='marker-footer'>Responsible: <a href=''>Sergei Romanov</a></div>"
+        },
+        "m6": {
+            "lat": 50.600944,
+            "lng": 36.595794,
+            "message": "<h5 class='marker-title'>Belgorod</h5><ul class='marker-list'><li>Belgorod State University</li></ul><div class='marker-footer'>Responsible: <a href=''>Vladimir Kornev</a></div>"
+        },
+        "m7": {
+            "lat": 56.737316,
+            "lng": 37.160814,
+            "message": "<h5 class='marker-title'>Dubna (Moscow region)</h5><ul class='marker-list'><li>GU Dubna</li></ul><div class='marker-footer'>Responsible: <a href=''>Evgeniy Smirnov</a></div>"
+        },
+        "m8": {
+            "lat": 53.228448,
+            "lng": 50.200824,
+            "message": "<h5 class='marker-title'>Samara</h5><ul class='marker-list'><li>Samara State Technical University</li><li>Samara State University</li></ul><div class='marker-footer'>Responsible: <a href=''></a></div>"
+        },
+        "m9": {
+            "lat": 48.919726,
+            "lng": 24.710778,
+            "message": "<h5 class='marker-title'>Ivano - Frankivsk</h5><ul class='marker-list'><li>Ivano-Frankivsk national technical university of oil and gas</li><li>VASYL STEFANYK PRECARPATHIAN NATIONAL UNIVERSITY</li><li>PNU</li><li>Prava</li></ul><div class='marker-footer'>Responsible: <a href=''></a></div>"
         }
     },
+
     "universities": [
         {
             "title": "name 1",
