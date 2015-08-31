@@ -24,12 +24,15 @@
             <ul class="social">
                 <li>
                     <a class="vk-icon" target="_blank" href="http://vk.com/y.spodenyuk"></a>
+                    <md-tooltip>Vkontakte</md-tooltip>
                 </li>
                 <li>
                     <a class="fb-icon" target="_blank" href="https://www.facebook.com/profile.php?id=100005981117222"></a>
+                    <md-tooltip>Facebook</md-tooltip>
                 </li>
                 <li>
                     <a class="mail-icon" href="mailto:yura_spodenyuk@mail.ru"></a>
+                    <md-tooltip>Write to email</md-tooltip>
                 </li>
             </ul>
             <nav data-ng-controller="NavCtrl">
@@ -58,14 +61,14 @@
                 <div class="picture community"></div>
                 <h4>Community</h4>
                 <div class="text">
-                    ставши частиною студентської ліги алтимату це крута можливість познайомитись з величезною спільнотою позитивних, цілеспрямованих, розумних спортсменів з усього світу!
+                    Being the member of student league ultimate, it's a great possibility to make friends with a huge community of positive purposeful and clever sportsmen and businessmen from all around the world!
                 </div>
             </div>
             <div class="item">
                 <div class="picture team"></div>
-                <h4>20 Ultimate Teams</h4>
+                <h4>Our Teams</h4>
                 <div class="text">
-                    20 ultimate teams – we have more then 30 mixed student ultimate teams!
+                    We have more then 30 mixed student ultimate teams!
                 </div>
             </div>
         </div>
@@ -75,9 +78,6 @@
     <!-- universities begin -->
     <section id="universities" data-ng-controller="UniversitiesCtrl">
         <h3>How <span>many</span> of us?</h3>
-        <div class="description">
-            More than 35 teams from all over the world.
-        </div>
         <div class="slider-wrap">
             <div class="slider" data-teams-slider>
                 <div class="item" data-ng-repeat="universities in universities">
@@ -93,9 +93,32 @@
     <!-- partners begin -->
     <section id="partners" class="content">
         <h3>Thanks to our <span>partners</span></h3>
-        <div class="wrap clearfix">
-            <div class="item impuls">Impuls</div>
-            <div class="item mad-caps">Mad Caps</div>
+        <div class="wrap clearfix" data-partners-width>
+            <a target="_blank" href="http://vk.com/impuls_ultimate">
+                <div class="item impuls">
+                    <md-tooltip>Impuls</md-tooltip>
+                </div>
+            </a>
+            <a target="_blank" href="http://www.rfdf.ru/">
+                <div class="item rfdf">
+                    <md-tooltip>Russian Flying Disc Federation</md-tooltip>
+                </div>
+            </a>
+            <a target="_blank" href="http://vk.com/madcaps_if">
+                <div class="item mad-caps">
+                    <md-tooltip>Mad Caps</md-tooltip>
+                </div>
+            </a>
+            <a target="_blank" href="http://vk.com/junior_ultimate">
+                <div class="item one-4-one">
+                    <md-tooltip>One4One</md-tooltip>
+                </div>
+            </a>
+            <a target="_blank" href="http://gfdf.ge/">
+                <div class="item gfdf">
+                    <md-tooltip>Georgian Flying Disc Federation</md-tooltip>
+                </div>
+            </a>
         </div>
     </section>
     <!-- partners end -->

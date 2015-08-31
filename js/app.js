@@ -73,13 +73,6 @@ app.controller('UniversitiesCtrl', ['$scope', '$http', 'leafletData', function (
 }]);
 
 
-
-
-
-
-
-
-
 app.directive('headerAnimation', function ($window) {
     var $win = angular.element($window);
 
@@ -193,6 +186,20 @@ app.directive('parallax', function ($window) {
                     backgroundPosition: coords
                 });
 
+            });
+        }
+    };
+});
+
+app.directive('partnersWidth', function ($window) {
+    return {
+        restrict: 'A',
+        link: function (scope, element, attrs) {
+
+            var count = element.find('a').length;
+
+            element.css({
+                width: (count * 140) - 40
             });
         }
     };

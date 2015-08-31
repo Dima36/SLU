@@ -3,116 +3,110 @@
         "m1": {
             "lat": 55.754816,
             "lng": 37.621509,
-            "message": "<h5 class='marker-title'>Moscow</h5><ul class='marker-list'><li>Higher School of Economics</li><li>Bauman Moscow State Technical University</li><li>Moscow Pedagogical State University</li><li>Russia University of Economics</li><li>Moscow State University</li><li>Russian State University for the Humanities</li></ul><div class='marker-footer'>Responsible: <a href=''>Boris Khilko</a></div>"
+            "message": "<h5 class='marker-title'>Moscow</h5><ul class='marker-list'><li>Higher School of Economics</li><li>Bauman Moscow State Technical University</li><li>Moscow Pedagogical State University</li><li>Russia University of Economics</li><li>Moscow State University</li><li>Russian State University for the Humanities</li></ul><div class='marker-footer'>Responsible: <a target='_blank' href='http://vk.com/id14154278'>Boris Khilko</a></div>"
         },
         "m2": {
             "lat": 59.936370,
             "lng": 30.318191,
-            "message": "<h5 class='marker-title'>Saint-Petersburg</h5><ul class='marker-list'><li>Saint Petersburg State University</li><li>Saint-Petersburg State Pediatric Medical University</li><li>St. Petersburg State University of Culture</li><li>St.Petersburg Polytechnic University</li><li>Novgorod State University</li></ul><div class='marker-footer'>Responsible: <a href=''>--</a></div>"
+            "message": "<h5 class='marker-title'>Saint-Petersburg</h5><ul class='marker-list'><li>Saint Petersburg State University</li><li>Saint-Petersburg State Pediatric Medical University</li><li>St. Petersburg State University of Culture</li><li>St.Petersburg Polytechnic University</li><li>Novgorod State University</li></ul><div class='marker-footer'>Responsible: <a target='_blank' href='http://vk.com/komaz'>Mazurin Kostya</a></div>"
         },
         "m3": {
             "lat": 56.301313,
             "lng": 43.937045,
-            "message": "<h5 class='marker-title'>Nizhniy Novgorod</h5><ul class='marker-list'><li>Lobachevsky State University of Nizhni Novgorod</li><li>Nizhny Novgorod State Technical University</li></ul><div class='marker-footer'>Responsible: <a href=''>Alexei Vasiliev</a></div>"
+            "message": "<h5 class='marker-title'>Nizhniy Novgorod</h5><ul class='marker-list'><li>Lobachevsky State University of Nizhni Novgorod</li><li>Nizhny Novgorod State Technical University</li></ul><div class='marker-footer'>Responsible: <a target='_blank' href='http://vk.com/avasilyev52'>Alexei Vasiliev</a></div>"
         },
         "m4": {
             "lat": 56.146938,
             "lng": 40.408331,
-            "message": "<h5 class='marker-title'>Vladimir</h5><ul class='marker-list'><li>Vladimir State University</li></ul><div class='marker-footer'>Responsible: <a href=''>Dmitriy Kirichkov</a></div>"
+            "message": "<h5 class='marker-title'>Vladimir</h5><ul class='marker-list'><li>Vladimir State University</li></ul><div class='marker-footer'>Responsible: <a target='_blank' href='http://vk.com/dima_kirichkov'>Dmitriy Kirichkov</a></div>"
         },
         "m5": {
             "lat": 59.223095,
             "lng": 39.883861,
-            "message": "<h5 class='marker-title'>Vologda</h5><ul class='marker-list'><li>Vologda State University</li></ul><div class='marker-footer'>Responsible: <a href=''>Sergei Romanov</a></div>"
+            "message": "<h5 class='marker-title'>Vologda</h5><ul class='marker-list'><li>Vologda State University</li></ul><div class='marker-footer'>Responsible: <a target='_blank' href='http://vk.com/id134637376'>Sergei Romanov</a></div>"
         },
         "m6": {
             "lat": 50.600944,
             "lng": 36.595794,
-            "message": "<h5 class='marker-title'>Belgorod</h5><ul class='marker-list'><li>Belgorod State University</li></ul><div class='marker-footer'>Responsible: <a href=''>Vladimir Kornev</a></div>"
+            "message": "<h5 class='marker-title'>Belgorod</h5><ul class='marker-list'><li>Belgorod State University</li></ul><div class='marker-footer'>Responsible: <a target='_blank' href='http://vk.com/kkkornev'>Vladimir Kornev</a></div>"
         },
         "m7": {
             "lat": 56.737316,
             "lng": 37.160814,
-            "message": "<h5 class='marker-title'>Dubna (Moscow region)</h5><ul class='marker-list'><li>GU Dubna</li></ul><div class='marker-footer'>Responsible: <a href=''>Evgeniy Smirnov</a></div>"
+            "message": "<h5 class='marker-title'>Dubna (Moscow region)</h5><ul class='marker-list'><li>GU Dubna</li></ul><div class='marker-footer'>Responsible: <a target='_blank' href='http://vk.com/eugensm'>Evgeniy Smirnov</a></div>"
         },
         "m8": {
             "lat": 53.228448,
             "lng": 50.200824,
-            "message": "<h5 class='marker-title'>Samara</h5><ul class='marker-list'><li>Samara State Technical University</li><li>Samara State University</li></ul><div class='marker-footer'>Responsible: <a href=''></a></div>"
+            "message": "<h5 class='marker-title'>Samara</h5><ul class='marker-list'><li>Samara State Technical University</li><li>Samara State University</li></ul><div class='marker-footer'>Responsible: <a target='_blank' href=''></a></div>"
         },
         "m9": {
             "lat": 48.919726,
             "lng": 24.710778,
-            "message": "<h5 class='marker-title'>Ivano - Frankivsk</h5><ul class='marker-list'><li>Ivano-Frankivsk national technical university of oil and gas</li><li>VASYL STEFANYK PRECARPATHIAN NATIONAL UNIVERSITY</li><li>PNU</li><li>Prava</li></ul><div class='marker-footer'>Responsible: <a href=''></a></div>"
+            "message": "<h5 class='marker-title'>Ivano - Frankivsk</h5><ul class='marker-list'><li>Ivano-Frankivsk national technical university of oil and gas</li><li>Vasyl Stefanyk precarpathian national university</li></ul><div class='marker-footer'>Responsible: <a target='_blank' href='http://vk.com/y.spodenyuk'>Spodenyuk Yura</a></div>"
         }
     },
 
     "universities": [
         {
-            "title": "name 1",
+            "title": "Vladimir State University",
             "name": "dkue.jpg"
         }, {
-            "title": "name 2",
+            "title": "Dubna University",
             "name": "dubna.jpg"
         }, {
-            "title": "name 3",
+            "title": "Higher School of Economics",
             "name": "economical-school.jpg"
         }, {
-            "title": "name 4",
+            "title": "Physical-Technical High School",
             "name": "ftsh.jpg"
         }, {
-            "title": "name 5",
+            "title": "GTU",
             "name": "gtu.jpg"
         }, {
-            "title": "name 6",
-            "name": "med.jpg"
-        }, {
-            "title": "name 7",
+            "title": "Moscow State Pedagogical University",
             "name": "mgpu.jpg"
         }, {
-            "title": "name 8",
+            "title": "Lomonosov Moscow State University",
             "name": "mgu.jpg"
         }, {
-            "title": "name 9",
+            "title": "Ivano-Frankivsk national technical university of oil and gas",
             "name": "nafta.jpg"
         }, {
-            "title": "name 10",
+            "title": "Nizhny Novgorod State Technical University",
             "name": "ngtu.jpg"
         }, {
-            "title": "name 11",
+            "title": "Plekhanov Russian University of Economics",
             "name": "pleshka.jpg"
         }, {
-            "title": "name 12",
+            "title": "FIRST MOSCOW STATE MEDICAL UNIVERSITY",
             "name": "pmgmu.png"
         }, {
-            "title": "name 13",
+            "title": "Vasyl Stefanyk precarpathian national university",
             "name": "pnu.jpg"
         }, {
-            "title": "name 14",
+            "title": "The Russian Presidential Academy of National Economy and Public Administration (RANEPA)",
             "name": "ranhigs.jpg"
         }, {
-            "title": "name 15",
+            "title": "Russian State University for the Humanities",
             "name": "rggu.jpg"
         }, {
-            "title": "name 16",
-            "name": "ruls.jpg"
-        }, {
-            "title": "name 17",
+            "title": "Samara state technikal university",
             "name": "samgtu.jpg"
         }, {
-            "title": "name 18",
+            "title": "Moscow School 793",
             "name": "sosh.jpg"
         }, {
-            "title": "name 19",
+            "title": "Saint-petersburg state university of Culture",
             "name": "spbgik.jpg"
         }, {
-            "title": "name 20",
+            "title": "Saint Petersburg State University",
             "name": "spbgu.jpg"
         }, {
-            "title": "name 21",
+            "title": "Vologda state pedagogical university",
             "name": "pedagogical.jpg"
         }, {
-            "title": "name 22",
+            "title": "Bauman Moscow State Technical University",
             "name": "mgtu.jpg"
         }
     ]
